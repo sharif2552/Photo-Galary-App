@@ -1,0 +1,28 @@
+import React from 'react';
+import { Card, CardBody, CardImg, CardText, CardTitle } from 'reactstrap';
+
+const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo' prop
+    return (
+        <div>
+            <Card className="my-2">
+                <CardImg
+                    alt="Card image cap"
+                    src={photo.image}
+                    style={{
+                        height: '100%',
+                    }}
+                    top
+                    width="100%"
+                />
+                <CardBody style={{ textAlign: 'left' }}>
+                    <CardTitle tag="h5">{photo.title}</CardTitle>
+                    <CardText>{photo.description}</CardText>
+                    {/* <CardText>{photo.price}/-</CardText> */}
+                    <hr />
+                </CardBody>
+            </Card>
+        </div>
+    );
+};
+
+export default PhotoDetails;

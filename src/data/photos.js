@@ -28,6 +28,34 @@ const PHOTO_GALLERY = [
       category: 'Food',
       description: 'A mouthwatering plate of gourmet food, beautifully presented and ready to be savored.',
     },
+    {
+      id: 4,
+      title: 'Mountain Sunset',
+      image: 'assets/images/one.jpg',
+      category: 'Nature',
+      description: 'A stunning sunset over a mountain range, casting a warm glow over the landscape.',
+    },
+    {
+      id: 5,
+      title: 'Urban Skyline',
+      image: 'assets/images/two.jpg',
+      category: 'City',
+      description: 'A panoramic view of a modern urban skyline with architectural marvels.',
+    },
+    {
+      id: 6,
+      title: 'Underwater World',
+      image: 'assets/images/three.jpg',
+      category: 'Nature',
+      description: 'An exploration of the vibrant marine life and coral reefs in the deep ocean.',
+    },
+    {
+      id: 7,
+      title: 'Exotic Cuisine',
+      image: 'assets/images/four.jpg',
+      category: 'Food',
+      description: 'Exquisite and colorful sushi platter showcasing the art of Japanese cuisine.',
+    },
     
   ];
   

@@ -1,0 +1,10 @@
+/* CSS for separate scrolling feature */
+.photo-list {
+    height: 80vh; /* Set a fixed height for the left column */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.photo-details {
+    height: 80vh; /* Set a fixed height for the right column */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
