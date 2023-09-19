@@ -14,14 +14,14 @@ const PhotoGallery = () => { // Changed 'Photogalary' to 'PhotoGallery'
         <Photo photo={photo} onSelectPhoto={onSelectPhoto} key={photo.id} /> // Changed '<photo' to '<Photo'
     ));
 
-    // const photoDetail = selectedPhoto ? <DishDetail dish={selectedPhoto} /> : null;
+    const photoDetail = selectedPhoto ? <Photo photo={selectedPhoto} /> : null;
 
     return (
         <div>
             <div className="container">
                 <div className="row">
                     <div className="col-5">{photoItems}</div>
-                    {/* <div className="col-7">{photoDetail}</div> */}
+                    <div className="col-7">{photoDetail}</div>
                 </div>
             </div>
             <h1>hello there</h1>
