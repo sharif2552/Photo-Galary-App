@@ -1,17 +1,23 @@
 /* CSS for separate scrolling feature */
 .photo-list {
-    height: 50vh; /* Set a default height for the left column */
+    height: 100%; /* Set a default height for the left column */
     overflow-y: auto; /* Enable vertical scrolling */
     margin-left: px; /* Move the scrollbar 10 pixels to the left */
-    padding-left: px; 
+
     align-items: center;
     size: 30cm;
+}
+.photo-list__single-item{
+    align-content: center;
+    align-items: center;
+    padding : 0
 }
 
 .photo-details {
     height: 50vh; /* Set a default height for the right column */
     overflow-y: auto; /* Enable vertical scrolling */
 }
+
 
 /* Media query for larger screens */
 @media (min-width: 768px) {
@@ -21,3 +27,5 @@
         padding-right: 10px; 
     }
 }
+
+

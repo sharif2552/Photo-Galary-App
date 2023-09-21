@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardImg, CardText, CardTitle } from 'reactstrap';
+import FeedbackForm  from './FeedbackForm';
+
 
 const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo' prop
     return (
@@ -21,6 +23,10 @@ const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo
                     <hr />
                 </CardBody>
             </Card>
+
+
+            <FeedbackForm contentId = {photo.id}  />
+
         </div>
     );
 };

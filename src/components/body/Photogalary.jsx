@@ -51,9 +51,10 @@ const PhotoGallery = () => { // Changed 'Photogalary' to 'PhotoGallery'
         <div className="container">
             <div className="row">
                 <div className="col-5 photo-list">
-                <div className="col-5">{filteredPhotos.map((photo) => (
-                        <Photo photo={photo} onSelectPhoto={onSelectPhoto} key={photo.id} />
-                    ))}</div>
+                <div className="col-5 photo-list__single-item">{filteredPhotos.map((photo) => (
+                        <Photo className= 'signle_photo' photo={photo} onSelectPhoto={onSelectPhoto} key={photo.id} />
+                    ))}
+                </div>
                 </div>
                 <div className="col-7 photo-details">
             {/* Render photos based on the selected category */}
