@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-function FeedbackForm2() {
+function FeedbackForm2({ contentId }) {
   const [feedback, setFeedback] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/feedback', { feedback });
+      await axios.post('http://localhost:5000/feedback', { feedback, contentId });
       setFeedback('');
       // You can add code here to handle success or show a success message.
     } catch (error) {
@@ -20,6 +20,11 @@ function FeedbackForm2() {
     <div>
       <h2>Feedback Form</h2>
       <form onSubmit={handleSubmit}>
+        <input
+          type="hidden"
+          name="contentId"
+          value={contentId}
+        />
         <textarea
           rows="4"
           cols="50"
