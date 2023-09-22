@@ -25,7 +25,7 @@ const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo
             </Card>
 
 
-            <FeedbackForm contentId = {photo.id}  />
+
             <FeedbackForm2 contentId = {photo.id}  />
 
         </div>
