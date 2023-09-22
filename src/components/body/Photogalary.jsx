@@ -40,12 +40,6 @@ const PhotoGallery = () => { // Changed 'Photogalary' to 'PhotoGallery'
                 </select>
             </div>
 
-
-
-
-
-
-
             <div>
 
         <div className="container">

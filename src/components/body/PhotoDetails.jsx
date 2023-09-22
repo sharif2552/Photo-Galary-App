@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardImg, CardText, CardTitle } from 'reactstrap';
 import FeedbackForm  from './FeedbackForm';
-
+import FeedbackForm2  from './FeedbackForm2';
 
 const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo' prop
     return (
@@ -26,6 +26,7 @@ const PhotoDetails = ({ photo }) => { // Added curly braces to access the 'photo
 
 
             <FeedbackForm contentId = {photo.id}  />
+            <FeedbackForm2 contentId = {photo.id}  />
 
         </div>
     );
