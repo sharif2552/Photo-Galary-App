@@ -1,19 +1,69 @@
 {
-  "posts": [
+  "feedback": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "feedback": "sd",
+      "contentId": 0,
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "feedback": "ad",
+      "contentId": 3,
+      "id": 2
+    },
+    {
+      "feedback": "fg",
+      "contentId": 5,
+      "id": 3
+    },
+    {
+      "feedback": "sdf",
+      "contentId": 7,
+      "id": 4
+    },
+    {
+      "feedback": "asdf",
+      "contentId": 2,
+      "id": 5
+    },
+    {
+      "feedback": "asd",
+      "contentId": 2,
+      "id": 6
+    },
+    {
+      "feedback": "asdf",
+      "contentId": 0,
+      "id": 7
+    },
+    {
+      "feedback": "sdf",
+      "contentId": 0,
+      "id": 8
+    },
+    {
+      "feedback": "hello",
+      "contentId": 0,
+      "id": 9
+    },
+    {
+      "feedback": "hi",
+      "contentId": 0,
+      "id": 10
+    },
+    {
+      "feedback": "new",
+      "contentId": 0,
+      "id": 11
+    },
+    {
+      "feedback": "new3",
+      "contentId": 0,
+      "id": 12
+    },
+    {
+      "feedback": "a",
+      "contentId": 5,
+      "id": 13
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
